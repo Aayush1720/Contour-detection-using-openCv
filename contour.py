@@ -23,7 +23,7 @@ def getContours(img):
             if objCor == 4: objType = "quadrilateral"
             if objCor == 6: objType = "hexagon"
             if objCor > 6: objType = "circle"
-            cv2.putText(imgn,objType, (x+ w//2-10, y + h//2-10),cv2.FONT_HERSHEY_COMPLEX,0.5,(255,255,255),1)
+            cv2.putText(imgn,objType, (x+ w//2-10, y + h//2-10),cv2.FONT_HERSHEY_COMPLEX,0.5,(0,0,0),1)
 
 
 
